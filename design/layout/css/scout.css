@@ -1,0 +1,73 @@
+body {
+	padding-top: 40px;
+}
+
+.jumbotron {
+	margin: 0px;
+}
+
+.row {
+	background-color: #eee;
+	margin: 10px 0px;
+	padding: 15px 0px;
+}
+
+.row.hero {
+	background-color: #eef;	
+}
+
+.email {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#notYou {
+	padding: 10px;
+}
+
+#social div {
+	height: 45px;
+	width: 45px;
+	background-image: url('../images/social-icons.jpg');
+	margin-left: 20px;
+}
+
+#social .facebook {
+	background-position: -477px -272px;
+}
+
+#social .google {
+	background-position: -338px -342px;
+}
+
+#social .twitter {
+	background-position: -268px -272px;
+}
+
+#menuButton {
+	font-size: 1.5em;
+	color: #eee;
+	background-color: #222;
+	border: none;
+}
+
+#meButton {
+	content: url('../images/quinn-small.jpg');
+	height: 50px;
+	width: 50px;
+}
+
+.popoverImage {
+	content: url('../images/quinn-small.jpg');
+	padding: 0px 15px;
+}
+
+.popover {
+	clear: both;
+	width: 300px !important;
+	left: 2% !important;
+}
+
+.popover .arrow {
+	left: 96% !important;
+}
