@@ -24,4 +24,18 @@ $(document).ready(function() {
 			return $('#mePopover').html();
 		}
 	});
+
+	$('#meButton').on('show.bs.popover', function () {
+		$('#overlay').toggle();
+	});
+
+	$('#meButton').on('hidden.bs.popover', function () {
+		$('#overlay').toggle();
+	});
+
+	$('#meButton').on('shown.bs.popover', function () {
+		$('.subtitle').dotdotdot({
+			watch: true
+		});
+	});
 });

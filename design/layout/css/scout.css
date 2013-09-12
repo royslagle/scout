@@ -2,6 +2,11 @@ body {
 	padding-top: 40px;
 }
 
+.text-middle {
+	height: 3em;
+	line-height: 3em;
+}
+
 .jumbotron {
 	margin: 0px;
 }
@@ -57,17 +62,96 @@ body {
 	width: 50px;
 }
 
-.popoverImage {
-	content: url('../images/quinn-small.jpg');
-	padding: 0px 15px;
+.navbar {
+	z-index: 2000;
 }
 
 .popover {
 	clear: both;
-	width: 300px !important;
-	left: 2% !important;
+	max-width: 500px;
+	width: 95% !important;
+	max-height: 375px !important;
+	left: auto !important;
+	right: 5px !important;
+	overflow: scroll;
+	z-index: 2000;
 }
 
 .popover .arrow {
-	left: 96% !important;
+	left: auto !important;
+	right: 10px !important;
+}
+
+.popover .container {
+	background-color: #fff;
+	padding: 0px;
+}
+
+.popover-image {
+	padding: 0px;
+}
+
+img.popover-image {
+	content: url('../images/quinn-small.jpg');
+	padding: 0px;
+}
+
+.popover-details {
+	padding: 0px;
+}
+
+.logout-button {
+	display: block;
+	margin-right: 10px;
+}
+
+.inbox {
+	background-color: #222 !important;
+	color: #eee;
+	padding-left: 5px;
+}
+
+.todo-icon {
+	margin-top: 5px;
+	padding: 0px;
+	font-size: 2em;
+}
+
+.todo-details {
+	padding: 0px;
+}
+
+.subtitle {
+	margin: 0px 0px 10px 0px;
+	height: 40px;
+}
+
+hr {
+	height: 2px;
+	background-color: #ccc;
+	margin: 5px 0px;
+}
+
+.badge {
+	background: #BA070F;
+	color: #fff;
+	padding: 1px 7px;
+	position: fixed;
+	right: 40px;
+	top: 5px;
+	z-index: 2001;
+	border-radius: .8em;
+	border: 2px solid #fff;
+}
+
+#overlay {
+	display: none;
+	z-index: 1800;
+	background-color: #000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	opacity: 0.8;
 }

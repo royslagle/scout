@@ -13,6 +13,8 @@
 
 	<body>
 
+		<div id="overlay"></div>
+		
 		<!-- Navbar -->
 		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
 			<div class="navbar-left">
@@ -24,15 +26,60 @@
 			</div>
 		</nav><!-- /.navbar -->
 
+		<div class="badge">3</div>
+
 		<!-- Popover -->
 		<div id="mePopover" class="hide">
-			<div class="row">
-				<img class="popoverImage pull-left">
-				<h3>Roy Slagledoodledoo</h3>
-				<a class="btn btn-default btn-lg pull-right" href="#">Log out</a>
+			<div class="container">
+				<div class="popover-image col-xs-4">
+					<img class="popover-image">
+				</div>
+				<div class="popover-details col-xs-8">
+					<h4 class="popover-name">Roy Slagle</h4>
+					<a class="logout-button btn btn-default" href="#">Log out</a>
+				</div>
 			</div>
-			<div class="row">
-				<h1>TODOs</h1>
+
+			<div class="container">
+				<h3 class="inbox">Inbox</h3>
+			</div>
+
+			<div class="container">
+				<div class="todo-icon col-xs-2">
+					<span class="glyphicon glyphicon-envelope"></span>
+				</div>
+				<div class="todo-details col-xs-10">
+					<h4>Reminder to work on Handyman requirements</h4>
+					<div class="subtitle">We made good progress at our last meeting on the Handyman Activity Pin, but there are a few requirements left to complete.</div>
+					<div class="text-middle pull-left">Sent yesterday</div>
+					<a class="btn btn-default pull-right" href="#">Read</a>
+				</div>
+			</div>
+			<hr>
+			
+			<div class="container">
+				<div class="todo-icon col-xs-2">
+					<span class="glyphicon glyphicon-calendar"></span>
+				</div>
+				<div class="todo-details col-xs-10">
+					<h4>Fall Campout</h4>
+					<div class="subtitle">One of our most fun Pack events of the year, the Fall Family Campout, is scheduled for Saturday and Sunday, October 12th and 13th, right around the corner at Olentangy Caverns.</div>
+					<div class="text-middle pull-left">Oct 12th</div>
+					<a class="btn btn-default pull-right" href="#">RSVP</a>
+				</div>
+			</div>
+			<hr>
+			
+			<div class="container">
+				<div class="todo-icon col-xs-2">
+					<span class="glyphicon glyphicon-usd"></span>
+				</div>
+				<div class="todo-details col-xs-10">
+					<h4>Time to pay 2013 dues</h4>
+					<div class="subtitle">It's that time of year.  Please pay $50 for one scout and $40 for each additional scout.</div>
+					<div class="text-middle pull-left">Due in 2 weeks</div>
+					<a class="btn btn-default pull-right" href="#">Pay Now</a>
+				</div>
 			</div>
 		</div>
 
@@ -46,8 +93,8 @@
 		<div class="row hero">
 			<div class="col-xs-0 col-sm-2 col-md-4"></div>
 			<div id="registrationForm" class="col-xs-12 col-sm-8 col-md-4">
-				<p>
-					Please register with our site to have access to our secure features and content.  You are registering as:
+				<p class="subtitle">
+					Please register with our site to have access to our secure features and content.  You are registering a kjh lkjh kljh lkjh lkj lkj lkjlkjlkjlkjlkj  lkj lkj lkj lkj lkj lkh kjh ljlkj lkj jhoh oh oih oihj oih oih oih olihj olih olih olih oihol ihoih oih s:
 				</p>
 				<h4 class="email text-center">royslagle@gmail.com</h3>
 				<a id="notYou" class="pull-right">Not you?</a>
@@ -136,6 +183,7 @@
 		<script src="lib/js/collapse.js"></script>
 		<script src="lib/js/tooltip.js"></script>
 		<script src="lib/js/popover.js"></script>
+		<script src="lib/js/jquery.dotdotdot.js"></script>
 		<script src="js/scout.js"></script>
 	</body>
 </html>
